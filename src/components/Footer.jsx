@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      
+
       <div className="bg-gradient-to-r from-sky-500 to-blue-600 py-16 text-center text-white px-4 relative">
         <h3 className="text-xl font-light">Stay healthy and strong to enjoy life</h3>
         <h2 className="text-3xl md:text-5xl font-semibold mt-2">
@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
 
-        
+
         <div className="absolute right-10 top-1/2 bg-white shadow-xl rounded-lg p-5 w-72 hidden md:block">
           <h4 className="text-gray-600 text-sm">Are you doctor / hospital?</h4>
           <p className="font-semibold text-blue-600 mt-1">Join Mediretreats</p>
@@ -34,7 +34,7 @@ const Footer = () => {
       <footer className="bg-[#0f1f2d] text-gray-300 py-16 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
 
-          
+
           <div>
             <h4 className="text-white font-semibold mb-4">Important Links</h4>
             <ul className="space-y-2">
@@ -46,7 +46,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          
+
           <div>
             <h4 className="text-white font-semibold mb-4">Top Hospitals</h4>
             <ul className="space-y-2">
@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
 
-         
+
           <div>
             <h4 className="text-white font-semibold mb-4">Speciality Treatments</h4>
             <ul className="space-y-2">
@@ -74,7 +74,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          
+
           <div>
             <h4 className="text-white font-semibold mb-4">Medical Tourism Destinations</h4>
             <ul className="space-y-2">
@@ -86,10 +86,10 @@ const Footer = () => {
           </div>
         </div>
 
-        
+
         <div className="border-t border-gray-600 my-12 pt-12 max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
 
-         
+
           <div>
             <img src="logo.png" alt="Logo" className="w-40 mb-4" />
             <h4 className="text-white font-semibold mb-3">About Aafiya Mediretreats</h4>
