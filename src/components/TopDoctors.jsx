@@ -26,7 +26,7 @@ const TopDoctors = () => {
         <section className="py-16 px-6 bg-[#e9f0f6]">
             <div className="max-w-6xl mx-auto text-center">
 
-                
+
                 <p className="text-red-500 italic text-lg mb-2">Doctors</p>
 
                 {/* Main Title */}
@@ -41,7 +41,7 @@ const TopDoctors = () => {
                             key={index}
                             className="bg-white p-5 rounded-md shadow-lg border border-gray-200"
                         >
-                            
+
                             <div className="bg-pink-200 rounded-md mb-4 h-56">
                                 <img
                                     src={doc.image}
@@ -50,7 +50,7 @@ const TopDoctors = () => {
                                 />
                             </div>
 
-                            
+
                             <p className="text-red-500 italic font-semibold text-lg">
                                 {doc.name}
                             </p>
@@ -60,7 +60,7 @@ const TopDoctors = () => {
                     ))}
                 </div>
 
-                
+
                 <div className="flex justify-center mt-8 gap-3">
                     <span className="h-3 w-3 rounded-full bg-sky-500"></span>
                     <span className="h-3 w-3 rounded-full bg-gray-400"></span>
