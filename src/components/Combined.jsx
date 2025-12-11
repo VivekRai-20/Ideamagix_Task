@@ -7,7 +7,7 @@ import PostTreatmentCare from './PostTreatementCare';
 import RecoveryTips from './RecoveryTips';
 import Faq from './Faq';
 import PatientStories from './PatientStories';
-import Form from './form';
+import Form from './Form';
 
 export const Combined = () => {
     return (
